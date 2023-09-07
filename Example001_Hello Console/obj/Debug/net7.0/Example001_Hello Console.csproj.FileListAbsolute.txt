@@ -1,0 +1,14 @@
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/bin/Debug/net7.0/Example001_Hello Console
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/bin/Debug/net7.0/Example001_Hello Console.deps.json
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/bin/Debug/net7.0/Example001_Hello Console.runtimeconfig.json
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/bin/Debug/net7.0/Example001_Hello Console.dll
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/bin/Debug/net7.0/Example001_Hello Console.pdb
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.AssemblyInfoInputs.cache
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.AssemblyInfo.cs
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.csproj.CoreCompileInputs.cache
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.dll
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/refint/Example001_Hello Console.dll
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.pdb
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/Example001_Hello Console.genruntimeconfig.cache
+/Users/vheyer/Documents/GB/Examples/Example001_Hello Console/obj/Debug/net7.0/ref/Example001_Hello Console.dll
