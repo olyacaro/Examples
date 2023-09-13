@@ -120,3 +120,6 @@ string Replace(string text, char oldValue, char newValue) //Replace - услов
 
 string newText = Replace(text, ' ', '|');
 Console.WriteLine(newText);
+Console.WriteLine();
+newText = Replace(newText, 'к', 'К'); //Заменили символы.
+Console.WriteLine(newText);
