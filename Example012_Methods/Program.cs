@@ -1,5 +1,8 @@
 ﻿// Вид 1 (Пример метода, который ничего не возвращает и ничего не принимает)
 
+using System.Reflection.Metadata;
+using System.Xml;
+
 void Method1()
 {
     Console.WriteLine("Автор Гайер Ольга...");
@@ -61,12 +64,12 @@ Console.WriteLine(res); */
 string Method4(int count, string c)
 {
     string result = String.Empty;
-    for(int i = 0; i < count; i++)
+    for (int i = 0; i < count; i++)
     {
         result = result + c;
     }
     return result;
-} 
+}
 
 string res = Method4(10, "z");
 // Console.WriteLine(res);
@@ -74,11 +77,46 @@ string res = Method4(10, "z");
 // Циклы и не только While. Есть еще for и цикл в цикле.
 
 
-for (int i = 2; i <= 10; i++)
+/* for (int i = 2; i <= 10; i++)
 {
     for (int j = 2; j <= 10; j++)
     {
-        Console.WriteLine($"{i} * {j} = {i*j}");
+        Console.WriteLine($"{i} * {j} = {i * j}");
     }
-      Console.WriteLine();
+    Console.WriteLine();
 }
+*/
+
+
+/* Задача: 
+Дан текст. 
+В тексте нужно все пробелы заменить черточками, 
+маленькие буквы “к” заменить большими “К”, 
+а большие “С” заменить маленькими “с”. */
+// Ясна ли задача?
+
+string text = "— Я думаю, — сказал князь, улыбаясь, — что, "
+            + "ежели бы вас послали вместо нашего милого Винценгероде,"
+            + "вы бы взяли приступом согласие прусского короля. "
+            + "Вы так красноречивы. Вы дадите мне чаю?";
+
+// string s = "qwerty"
+//             012345
+// то есть s[3] = "r"
+
+string Replace(string text, char oldValue, char newValue) //Replace - условно 4-ый вид методов
+{
+    string result = string.Empty;
+
+    int length = text.Length;
+    for (int i = 0; i < length; i++)
+    {
+        if (text[i] == oldValue) result = result + $"{newValue}";
+        else result = result + $"{text[i]}";
+    }
+
+    return result;
+}
+
+string newText = Replace(text, ' ', '|');
+Console.WriteLine(newText);
