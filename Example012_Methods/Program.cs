@@ -41,7 +41,7 @@ int year = Method3();
 
 // Вид 4 (Пример метода, который что-то принимает и что-то возвращает)
 
-string Method4(int count, string c)
+/* string Method4(int count, string c)
 {
     int i = 0;
     string result = String.Empty;
@@ -51,7 +51,22 @@ string Method4(int count, string c)
         i++;
     }
     return result;
-}
+} 
+
+string res = Method4(10, "z");
+Console.WriteLine(res); */
+
+// Вид 4 - дубль но с цыклом "for":
+
+string Method4(int count, string c)
+{
+    string result = String.Empty;
+    for(int i = 0; i < count; i++)
+    {
+        result = result + c;
+    }
+    return result;
+} 
 
 string res = Method4(10, "z");
 Console.WriteLine(res);
