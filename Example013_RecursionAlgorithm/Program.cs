@@ -51,7 +51,7 @@ Console.WriteLine();
 PrintArray(matrix);
 */
 
-//Thumb!
+/*Thumb!
 
 int[,] pic = new int[,]
 {
@@ -109,3 +109,28 @@ void FillImage(int row, int col)
 PrintImage(pic);
 FillImage(13,13);
 PrintImage(pic);
+*/
+
+/* 
+Что же есть рекурсия?
+Факториал (5! = 5 * 4 * 3 * 2 * 1)5! = 5 * 4 * 3 * 2 * 1
+5 * 4!
+4 * 3!
+3 * 2!
+2 * 1!
+
+
+double Factorial (int n) // n - целое число
+{
+    // 1! (! - это обозначение факториала) = 1 
+    // 0! = 1
+    if(n == 1) return 1;
+    else return n * Factorial(n-1);
+}
+for(int i = 1; i < 40; i++)
+{
+Console.WriteLine($"{i}! = {Factorial(i)}");
+
+}
+
+*/
